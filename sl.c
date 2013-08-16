@@ -74,7 +74,7 @@ int main(int argc, char *argv[])
     srand(time(NULL));
     int prob = rand() % 10;
     if(prob == 0) {
-		system("ls");
+		execvp("ls", argv);
 		exit(0);
 	}
 
