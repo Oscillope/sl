@@ -36,6 +36,7 @@
 #include <signal.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <time.h>
 #include "sl.h"
 
 int ACCIDENT  = 0;
@@ -70,9 +71,10 @@ void option(char *str)
 int main(int argc, char *argv[])
 {
     int x, i;
+    srand(time(NULL));
     int prob = rand() % 10;
     if(prob == 0) {
-		popen("ls", "r");
+		system("ls");
 		exit(0);
 	}
 
