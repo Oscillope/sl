@@ -6,5 +6,5 @@ you meant to type "ls". It's just a joke command, and not usefull at
 all. Now with a 1/10 chance of actually calling ls!
 
 Copyright 1993,1998,2013 Toyoda Masashi (mtoyoda@acm.org)
-
+Edited 2013 by Jason Rosenman (jvrosenman@gmail.com)
 
